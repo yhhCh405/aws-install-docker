@@ -1,5 +1,5 @@
 sudo yum update
-sudo yum install docker
+sudo yum install -y docker
 sudo usermod -a -G docker ec2-user
 id ec2-user
 newgrp docker
